@@ -5,34 +5,46 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>FE1896D1-76D1-4CB6-A149-B1B0DEE674E7</string>
+	<string>52191933-2445-43A3-8588-F2CF7A12A587</string>
 	<key>IDESourceControlProjectName</key>
 	<string>OctSurfer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6DA899CA-86DB-4F3A-B956-A08DDDB5B2AF</key>
-		<string>https://github.com/waka/OctSurfer.git</string>
+		<key>0CA2BAA9-9022-4829-ABBA-A5AAB5128B5D</key>
+		<string>https://github.com/msgpack/msgpack-objectivec.git</string>
+		<key>443FEF92-FCC3-4175-928A-C923600BEF0A</key>
+		<string>https://github.com/tangfuhao/OctSurfer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>OctSurfer.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6DA899CA-86DB-4F3A-B956-A08DDDB5B2AF</key>
+		<key>0CA2BAA9-9022-4829-ABBA-A5AAB5128B5D</key>
+		<string>../../OctSurfer/Classes/Externals/msgpack-objectivec</string>
+		<key>443FEF92-FCC3-4175-928A-C923600BEF0A</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/waka/OctSurfer.git</string>
+	<string>https://github.com/tangfuhao/OctSurfer.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6DA899CA-86DB-4F3A-B956-A08DDDB5B2AF</string>
+	<string>443FEF92-FCC3-4175-928A-C923600BEF0A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6DA899CA-86DB-4F3A-B956-A08DDDB5B2AF</string>
+			<string>0CA2BAA9-9022-4829-ABBA-A5AAB5128B5D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>msgpack-objectivec</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>443FEF92-FCC3-4175-928A-C923600BEF0A</string>
 			<key>IDESourceControlWCCName</key>
 			<string>OctSurfer</string>
 		</dict>
