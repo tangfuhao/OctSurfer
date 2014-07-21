@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2457D1A2197D03C4009BB141 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2457D1A1197D03C4009BB141 /* XCTest.framework */; };
-		2457D1A8197D03C4009BB141 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2457D1A6197D03C4009BB141 /* InfoPlist.strings */; };
-		2457D1AA197D03C4009BB141 /* OctSurfer_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2457D1A9197D03C4009BB141 /* OctSurfer_Tests.m */; };
+		2457D1CE197D0CEC009BB141 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2457D1A1197D03C4009BB141 /* XCTest.framework */; };
+		2457D1CF197D0CEC009BB141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31C0132162FAC84005D7DAD /* Foundation.framework */; };
+		2457D1D0197D0CEC009BB141 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31C0130162FAC84005D7DAD /* UIKit.framework */; };
+		2457D1D6197D0CEC009BB141 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2457D1D4197D0CEC009BB141 /* InfoPlist.strings */; };
+		2457D1D8197D0CEC009BB141 /* OctSurfer_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2457D1D7197D0CEC009BB141 /* OctSurfer_Tests.m */; };
 		24B79EB21977BD9400FF6D1A /* AAMFeedbackTopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B79EA51977BD9400FF6D1A /* AAMFeedbackTopicsViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		24B79EB31977BD9400FF6D1A /* AAMFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B79EA71977BD9400FF6D1A /* AAMFeedbackViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		24B79EDD1977BD9900FF6D1A /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B79EBC1977BD9900FF6D1A /* MessagePackPacker.m */; };
@@ -132,7 +134,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2457D1AC197D03C4009BB141 /* PBXContainerItemProxy */ = {
+		2457D1DA197D0CEC009BB141 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D31C0123162FAC84005D7DAD /* Project object */;
 			proxyType = 1;
@@ -142,12 +144,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2457D1A0197D03C3009BB141 /* OctSurfer Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OctSurfer Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2457D1A1197D03C4009BB141 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		2457D1A5197D03C4009BB141 /* OctSurfer Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OctSurfer Tests-Info.plist"; sourceTree = "<group>"; };
-		2457D1A7197D03C4009BB141 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2457D1A9197D03C4009BB141 /* OctSurfer_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OctSurfer_Tests.m; sourceTree = "<group>"; };
-		2457D1AB197D03C4009BB141 /* OctSurfer Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OctSurfer Tests-Prefix.pch"; sourceTree = "<group>"; };
+		2457D1CD197D0CEC009BB141 /* OctSurfer Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OctSurfer Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2457D1D3197D0CEC009BB141 /* OctSurfer Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OctSurfer Tests-Info.plist"; sourceTree = "<group>"; };
+		2457D1D5197D0CEC009BB141 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2457D1D7197D0CEC009BB141 /* OctSurfer_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OctSurfer_Tests.m; sourceTree = "<group>"; };
+		2457D1D9197D0CEC009BB141 /* OctSurfer Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OctSurfer Tests-Prefix.pch"; sourceTree = "<group>"; };
 		24B79EA41977BD9400FF6D1A /* AAMFeedbackTopicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAMFeedbackTopicsViewController.h; path = AAMFeedback/AAMFeedbackTopicsViewController.h; sourceTree = "<group>"; };
 		24B79EA51977BD9400FF6D1A /* AAMFeedbackTopicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAMFeedbackTopicsViewController.m; path = AAMFeedback/AAMFeedbackTopicsViewController.m; sourceTree = "<group>"; };
 		24B79EA61977BD9400FF6D1A /* AAMFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAMFeedbackViewController.h; path = AAMFeedback/AAMFeedbackViewController.h; sourceTree = "<group>"; };
@@ -336,11 +338,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2457D19D197D03C3009BB141 /* Frameworks */ = {
+		2457D1CA197D0CEC009BB141 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2457D1A2197D03C4009BB141 /* XCTest.framework in Frameworks */,
+				2457D1CE197D0CEC009BB141 /* XCTest.framework in Frameworks */,
+				2457D1D0197D0CEC009BB141 /* UIKit.framework in Frameworks */,
+				2457D1CF197D0CEC009BB141 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,21 +365,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2457D1A3197D03C4009BB141 /* OctSurfer Tests */ = {
+		2457D1D1197D0CEC009BB141 /* OctSurfer Tests */ = {
 			isa = PBXGroup;
 			children = (
-				2457D1A9197D03C4009BB141 /* OctSurfer_Tests.m */,
-				2457D1A4197D03C4009BB141 /* Supporting Files */,
+				2457D1D7197D0CEC009BB141 /* OctSurfer_Tests.m */,
+				2457D1D2197D0CEC009BB141 /* Supporting Files */,
 			);
 			path = "OctSurfer Tests";
 			sourceTree = "<group>";
 		};
-		2457D1A4197D03C4009BB141 /* Supporting Files */ = {
+		2457D1D2197D0CEC009BB141 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2457D1A5197D03C4009BB141 /* OctSurfer Tests-Info.plist */,
-				2457D1A6197D03C4009BB141 /* InfoPlist.strings */,
-				2457D1AB197D03C4009BB141 /* OctSurfer Tests-Prefix.pch */,
+				2457D1D3197D0CEC009BB141 /* OctSurfer Tests-Info.plist */,
+				2457D1D4197D0CEC009BB141 /* InfoPlist.strings */,
+				2457D1D9197D0CEC009BB141 /* OctSurfer Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -627,7 +631,7 @@
 			isa = PBXGroup;
 			children = (
 				D31C0136162FAC84005D7DAD /* OctSurfer */,
-				2457D1A3197D03C4009BB141 /* OctSurfer Tests */,
+				2457D1D1197D0CEC009BB141 /* OctSurfer Tests */,
 				D31C012F162FAC84005D7DAD /* Frameworks */,
 				D31C012D162FAC84005D7DAD /* Products */,
 			);
@@ -637,7 +641,7 @@
 			isa = PBXGroup;
 			children = (
 				D31C012C162FAC84005D7DAD /* OctSurfer.app */,
-				2457D1A0197D03C3009BB141 /* OctSurfer Tests.xctest */,
+				2457D1CD197D0CEC009BB141 /* OctSurfer Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -808,22 +812,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2457D19F197D03C3009BB141 /* OctSurfer Tests */ = {
+		2457D1CC197D0CEC009BB141 /* OctSurfer Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2457D1B0197D03C4009BB141 /* Build configuration list for PBXNativeTarget "OctSurfer Tests" */;
+			buildConfigurationList = 2457D1DC197D0CEC009BB141 /* Build configuration list for PBXNativeTarget "OctSurfer Tests" */;
 			buildPhases = (
-				2457D19C197D03C3009BB141 /* Sources */,
-				2457D19D197D03C3009BB141 /* Frameworks */,
-				2457D19E197D03C3009BB141 /* Resources */,
+				2457D1C9197D0CEC009BB141 /* Sources */,
+				2457D1CA197D0CEC009BB141 /* Frameworks */,
+				2457D1CB197D0CEC009BB141 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2457D1AD197D03C4009BB141 /* PBXTargetDependency */,
+				2457D1DB197D0CEC009BB141 /* PBXTargetDependency */,
 			);
 			name = "OctSurfer Tests";
 			productName = "OctSurfer Tests";
-			productReference = 2457D1A0197D03C3009BB141 /* OctSurfer Tests.xctest */;
+			productReference = 2457D1CD197D0CEC009BB141 /* OctSurfer Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		D31C012B162FAC84005D7DAD /* OctSurfer */ = {
@@ -852,7 +856,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = yo_waka;
 				TargetAttributes = {
-					2457D19F197D03C3009BB141 = {
+					2457D1CC197D0CEC009BB141 = {
 						TestTargetID = D31C012B162FAC84005D7DAD;
 					};
 				};
@@ -872,17 +876,17 @@
 			projectRoot = "";
 			targets = (
 				D31C012B162FAC84005D7DAD /* OctSurfer */,
-				2457D19F197D03C3009BB141 /* OctSurfer Tests */,
+				2457D1CC197D0CEC009BB141 /* OctSurfer Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2457D19E197D03C3009BB141 /* Resources */ = {
+		2457D1CB197D0CEC009BB141 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2457D1A8197D03C4009BB141 /* InfoPlist.strings in Resources */,
+				2457D1D6197D0CEC009BB141 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -957,11 +961,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2457D19C197D03C3009BB141 /* Sources */ = {
+		2457D1C9197D0CEC009BB141 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2457D1AA197D03C4009BB141 /* OctSurfer_Tests.m in Sources */,
+				2457D1D8197D0CEC009BB141 /* OctSurfer_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1026,18 +1030,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2457D1AD197D03C4009BB141 /* PBXTargetDependency */ = {
+		2457D1DB197D0CEC009BB141 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D31C012B162FAC84005D7DAD /* OctSurfer */;
-			targetProxy = 2457D1AC197D03C4009BB141 /* PBXContainerItemProxy */;
+			targetProxy = 2457D1DA197D0CEC009BB141 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2457D1A6197D03C4009BB141 /* InfoPlist.strings */ = {
+		2457D1D4197D0CEC009BB141 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2457D1A7197D03C4009BB141 /* en */,
+				2457D1D5197D0CEC009BB141 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1054,7 +1058,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2457D1AE197D03C4009BB141 /* Debug */ = {
+		2457D1DD197D0CEC009BB141 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OctSurfer.app/OctSurfer";
@@ -1066,10 +1070,10 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OctSurfer Tests/OctSurfer Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1082,15 +1086,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "OctSurfer Tests/OctSurfer Tests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		2457D1AF197D03C4009BB141 /* Release */ = {
+		2457D1DE197D0CEC009BB141 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OctSurfer.app/OctSurfer";
@@ -1101,13 +1104,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OctSurfer Tests/OctSurfer Tests-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1116,9 +1118,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "OctSurfer Tests/OctSurfer Tests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1211,11 +1212,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2457D1B0197D03C4009BB141 /* Build configuration list for PBXNativeTarget "OctSurfer Tests" */ = {
+		2457D1DC197D0CEC009BB141 /* Build configuration list for PBXNativeTarget "OctSurfer Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2457D1AE197D03C4009BB141 /* Debug */,
-				2457D1AF197D03C4009BB141 /* Release */,
+				2457D1DD197D0CEC009BB141 /* Debug */,
+				2457D1DE197D0CEC009BB141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

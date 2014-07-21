@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2457D19F197D03C3009BB141"
+               BlueprintIdentifier = "2457D1CC197D0CEC009BB141"
                BuildableName = "OctSurfer Tests.xctest"
                BlueprintName = "OctSurfer Tests"
                ReferencedContainer = "container:OctSurfer.xcodeproj">
